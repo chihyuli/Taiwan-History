@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans TC", sans-serif;
+}
+
+header {
+  background-color: #c4c4c4;
+  width: 100%;
+  padding: 1rem;
+  font-family: "Noto Serif TC", serif;
+}
+header h1 {
+  font-family: "Noto Serif TC", serif;
+  font-size: 2.5rem;
+}
+header h1 i {
+  font-size: 3rem;
+  margin: 0 8px 0 0;
+}
+
+nav ul {
+  display: flex;
+  background-color: #312f2f;
+  padding-left: 1rem;
+}
+nav ul li {
+  list-style: none;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #c4c4c4;
+  display: block;
+  font-size: 18px;
+  padding: 0.5rem 0.75rem;
+  font-family: "Noto Serif TC", serif;
+}
+nav ul li a:hover {
+  color: #312f2f;
+  background-color: #fff;
+}
+
+.icon {
+  padding-right: 5px;
+  font-size: 22px;
+}
+
+.content {
+  display: flex;
+}
+
+section.left, section.right {
+  padding: 2rem;
+}
+
+section.right h5 {
+  font-size: 1.25rem;
+  text-align: center;
+  font-family: "Noto Serif TC", serif;
+  margin-bottom: 1rem;
+}
+
+p {
+  margin-bottom: 1rem;
+}/*# sourceMappingURL=style.css.map */

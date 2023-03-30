@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Alfa Slab One', cursive; */
+    font-family: 'Noto Sans TC', sans-serif;
+    
+}
+
+header {
+    background-color: #c4c4c4;
+    width: 100%;
+    padding: 1rem;  
+}
+h1,header p,nav ul li a{
+    font-family: 'Noto Serif TC', serif;
+}
+header h1{
+    font-size: 2.5rem;
+}
+header h1 i{
+    font-size: 3rem;
+    margin: 0 8px 0 0;
+}
+
+nav ul {
+    display: flex;
+    background-color: #312f2f;
+    padding-left: 1rem;
+}
+
+nav ul li {
+    /* padding: .5rem .75rem; */
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #c4c4c4;
+    display: block;
+    font-size: 18px;
+    padding: .5rem .75rem;
+}
+
+nav ul li a:hover {
+    color: #312f2f;
+    background-color: #fff;
+}
+
+.icon {
+    padding-right: 5px;
+    font-size: 22px;
+}
+.content{
+    display: flex;
+}
+section.left{
+    padding: 2rem;
+}
+section.right{
+    padding: 2rem;
+}
+section.right h5{
+    font-size: 1.25rem;
+    text-align: center;
+    font-family: 'Noto Serif TC', serif;
+    margin-bottom: 1rem;
+}
+p{
+    margin-bottom: 1rem;
+}
+
+.content_ag,.content_ec,.content_in{
+    padding: 3rem;
+}
+
+/*農業*/
+.con_ag ol{
+    padding: 0 0 3rem 1rem;
+}
+.con_ag_1 p{
+    margin-bottom: 3rem;
+}
+.con_ag h2,.con_ag_1 h2{
+    font-family: 'Noto Serif TC', serif;
+}
+
+.content_in hr,.content_in p{
+    margin-bottom: 1.5rem;
+}
+.content_in h2{
+    font-family: 'Noto Serif TC', serif;
+}
+
+
+/*經濟*/
+.content_ec hr,.content_ec p{
+    margin-bottom: 3rem;
+}
+.content_ec h2,.content_ec h5{
+    font-family: 'Noto Serif TC', serif;
+}
+.content_ec ul{
+    padding: 0 0 3rem 1rem;
+}
+.content_ec h5{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+/*作者*/
+.ab_body{
+    /* background-color: #141416; */
+}
+.content_ab{
+    display: flex;
+    justify-content: end;
+}
+.ab_left{
+    padding: 100px;
+}
+.ab_left img{
+    width: 300px;
+    margin-bottom: 20px;
+}
+.about_con p,.ab_left p{
+    color: #312f2f;
+}
+
+.about p{
+    font-family: 'Rubik 80s Fade', cursive;
+    color: #e2e2e2;
+    font-size: 200px;
+    text-align: right;
+}
+.ab_right{
+    margin: 50px 50px 0 0;
+    /* border: #312f2f 1px solid; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.ab_left a{
+    color: #312f2f;
+    text-decoration: none;
+}
+.ab_left a:hover{
+    color: #a7980d;
+    text-decoration: underline;
+}

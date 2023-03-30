@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+$bgcolor:#eee;
+
+
+
+@import "./_header";
+@import "./_nav";
+
+// @mixin flexbox($color){
+//     display: flex;
+//     text-decoration: none;
+//     color: $color;
+//     justify-content: center;
+// }
+// .link1{
+//     @include flexbox(red);
+// }
+// .link2{
+//     @include flexbox(blue);
+// }
+// %test{
+//     justify-content: flex-end;
+// }
+// h1{
+//     font-family: 'Noto Serif TC', serif;
+//     color: #333;
+// }
+// header p{
+//     @extend %test;
+//     @extend h1;
+//     font-size: 16px;
+// }
+.content{
+    display: flex;
+}
+section.left,section.right{
+    padding: 2rem;
+}
+section.right{
+    h5{
+        font-size: 1.25rem;
+        text-align: center;
+        font-family: 'Noto Serif TC', serif;
+        margin-bottom: 1rem;
+    }
+    
+}
+p{
+    margin-bottom: 1rem;
+}
+%text{
+    padding: 3rem;
+}
